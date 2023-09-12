@@ -215,7 +215,7 @@ class MetaNumber:
             r = q % base
             q = q//base
             if verbose:
-                print("{} = {} x {} + {}".format(q,q_old,base,r))
+                print("{} = {} x {} + {}".format(q_old,q,base,r))
     
             if r < 0:
                 q += 1
